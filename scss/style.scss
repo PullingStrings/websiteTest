@@ -1,0 +1,36 @@
+
+
+nav {
+    background-color: rgba(128, 128, 128, 0.12);
+    margin: 4px;
+    padding: 4px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  font-size: 12px;
+  padding: 2px;
+  margin: 2px;
+}
+
+img {
+  display: block;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
